@@ -20,11 +20,11 @@ START-OF-SELECTION.
     INTO TABLE lt_vbak.
 
   LOOP AT lt_vbak ASSIGNING <vbak>.
-    lv_tax = ( <vbak>-netwr * 30 ) / 100.
+    lv_tax = ( <vbak>-netwr * 40 ) / 100.
     ADD lv_tax TO lv_tax_total.
   ENDLOOP.
 
-  WRITE: / 'Tax rate:', 30, '%'.
+  WRITE: / 'Tax rate:', 40, '%'.
   WRITE: / 'Tax total:', lv_tax_total.
 
 * TBD
