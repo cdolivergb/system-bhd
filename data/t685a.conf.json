@@ -1,0 +1,8 @@
+{
+  "name": "T685A",
+  "skip_initial": false,
+  "type": "TABU",
+  "where": [
+    "KAPPL = 'V'"
+  ]
+}

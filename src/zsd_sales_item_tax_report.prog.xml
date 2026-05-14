@@ -13,8 +13,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>Program ZSD_SALES_ITEM_TAX_REPORT</ENTRY>
-     <LENGTH>33</LENGTH>
+     <ENTRY>Sales Order item tax report</ENTRY>
+     <LENGTH>27</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
